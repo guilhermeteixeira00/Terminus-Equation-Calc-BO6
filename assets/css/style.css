@@ -36,6 +36,26 @@
     display: none;
 }
 
+.credits{
+    position: relative;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 20px;
+}
+
+.by{
+    font-size: 1.6rem;
+    color: yellow;
+    text-shadow: 2px 2px 10px yellow;
+}
+
+.icondc{
+    width: 35px;
+    cursor: pointer;
+}
+
 .calc{
     display: grid;
     grid-template-columns: repeat(1, 6fr);
@@ -145,25 +165,6 @@ h2 {
 #results p {
     margin: 3px 0;
     font-size: 0.9rem;
-}
-
-.credits{
-    display: flex;
-    padding-top: 20px;
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 20px;
-}
-
-.by{
-    font-size: 1.6rem;
-    color: yellow;
-    text-shadow: 2px 2px 10px yellow;
-}
-
-.icondc{
-    width: 35px;
-    cursor: pointer;
 }
 
 @media screen and (max-width: 1008px){
