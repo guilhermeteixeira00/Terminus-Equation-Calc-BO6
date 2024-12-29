@@ -161,9 +161,9 @@ h2 {
 }
 
 @media screen and (max-width: 800px){
-    /* body{
+    body{
         overflow-x: hidden;
-    } */
+    }
     #imgpc{
         display: none;
     }
@@ -176,8 +176,8 @@ h2 {
     }
 
     .calc img {
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
         object-fit: cover;
         border: 2px solid transparent;
         border-radius: 8px;
