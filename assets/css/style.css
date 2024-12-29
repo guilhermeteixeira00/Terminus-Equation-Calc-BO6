@@ -161,9 +161,9 @@ h2 {
 }
 
 @media screen and (max-width: 800px){
-    body{
+    /* body{
         overflow-x: hidden;
-    }
+    } */
     #imgpc{
         display: none;
     }
