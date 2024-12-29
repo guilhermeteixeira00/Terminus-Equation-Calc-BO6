@@ -36,9 +36,9 @@ function calculateResults() {
     const result2 = ((zValue * 2) + yValue) - 5;
     const result3 = (zValue + yValue) - xValue;
 
-    document.getElementById('result1').innerHTML = `1° Numero: <strong style="color:snow;">${result1}</strong>`;
-    document.getElementById('result2').innerHTML = `2° Numero: <strong style="color:snow;">${result2}</strong>`;
-    document.getElementById('result3').innerHTML = `3° Numero: <strong style="color:snow;">${Math.abs(result3)}</strong>`;
+    document.getElementById('result1').innerHTML = `1° Numero: <strong style="color:yellow;">${result1}</strong>`;
+    document.getElementById('result2').innerHTML = `2° Numero: <strong style="color:yellow;">${result2}</strong>`;
+    document.getElementById('result3').innerHTML = `3° Numero: <strong style="color:yellow;">${Math.abs(result3)}</strong>`;
 }
 function removeBanner() {
     const banner = document.querySelector('.donation-banner');
