@@ -160,6 +160,13 @@ h2 {
     font-size: 0.6rem;
 }
 
+@media screen and (max-width: 1008px){
+    .calc img{
+        width: 60px;
+        height: 60px;
+    }
+}
+
 @media screen and (max-width: 800px){
     body{
         overflow-x: hidden;
