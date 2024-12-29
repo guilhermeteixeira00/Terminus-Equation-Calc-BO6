@@ -193,6 +193,11 @@ h2 {
         font-size: 1.8rem;
     }
 
+    .calc{
+        top: 60%;
+        transform: translate(-50%, -50%);
+    }
+
     .calc img {
         width: 45px;
         height: 45px;
